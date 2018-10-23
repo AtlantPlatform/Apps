@@ -3,8 +3,8 @@ require "formula"
 class EthereumPlaybook < Formula
   desc "CLI tool that configures and deploys Ethereum DApp infrastructures using a static specification."
   homepage "https://github.com/AtlantPlatform/ethereum-playbook"
-  url "https://github.com/AtlantPlatform/ethereum-playbook/archive/v1.0.0.tar.gz"
-  sha256 "201074df71d1f43c40c0f4b6509bf7c92466d92c22fc94cf4e7c5283f8e2716d"
+  url "https://github.com/AtlantPlatform/ethereum-playbook/archive/v1.0.1.tar.gz"
+  sha256 "090f60a635548e898cebd1d28766534e25d88081213270834e2c5010d8adff67"
 
   head "https://github.com/AtlantPlatform/ethereum-playbook.git"
 
