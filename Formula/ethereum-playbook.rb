@@ -10,6 +10,12 @@ class EthereumPlaybook < Formula
 
   depends_on "go" => :build
 
+  bottle do
+    root_url "https://homebrew.bintray.com/bottles-apps"
+    cellar :any_skip_relocation
+    sha256 "9da252aa80cea38cd6e6443bffee88e6d29d855e40144b737369a796f3663388" => :high_sierra
+  end
+
   def install
     ENV["GOPATH"] = buildpath
 
